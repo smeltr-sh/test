@@ -1,0 +1,115 @@
+{
+  "id": "sample-0j9mkvtn",
+  "name": "tutorial-records",
+  "source": "tutorial-in",
+  "columns": [
+    {
+      "name": "_raw",
+      "type": "str"
+    },
+    {
+      "name": "__source.name",
+      "type": "str"
+    },
+    {
+      "name": "__source.type",
+      "type": "str"
+    },
+    {
+      "name": "__source.topic",
+      "type": "str"
+    },
+    {
+      "name": "__source.partition",
+      "type": "i64"
+    },
+    {
+      "name": "__source.offset",
+      "type": "i64"
+    },
+    {
+      "name": "__source.time",
+      "type": "datetime"
+    },
+    {
+      "name": "__source.headers",
+      "type": "variant"
+    },
+    {
+      "name": "__source.bytes",
+      "type": "bytes"
+    },
+    {
+      "name": "__capture.timestamp",
+      "type": "datetime"
+    },
+    {
+      "name": "__capture.source",
+      "type": "str"
+    },
+    {
+      "name": "__capture.group",
+      "type": "str"
+    },
+    {
+      "name": "__capture.config",
+      "type": "str"
+    }
+  ],
+  "records": [
+    {
+      "__capture": {
+        "config": "73e3ae26bec80f795b8e874b78ce18d1f01d47ca",
+        "group": "standalone",
+        "source": "tutorial-in",
+        "timestamp": "2026-11-11T19:00:50.060094Z"
+      },
+      "__source": {
+        "bytes": "eyJzZXJ2aWNlIjoiY2hlY2tvdXQiLCJtZXNzYWdlIjoicGF5bWVudCBkZWNsaW5lZCJ9",
+        "name": "tutorial-in",
+        "offset": 0,
+        "partition": 0,
+        "time": "2026-11-11T18:59:33.413000Z",
+        "topic": "smeltr-tutorial-in",
+        "type": "kafka"
+      },
+      "_raw": "{\"service\":\"checkout\",\"message\":\"payment declined\"}"
+    },
+    {
+      "__capture": {
+        "config": "73e3ae26bec80f795b8e874b78ce18d1f01d47ca",
+        "group": "standalone",
+        "source": "tutorial-in",
+        "timestamp": "2026-11-11T19:00:50.060094Z"
+      },
+      "__source": {
+        "bytes": "eyJzZXJ2aWNlIjoic2VhcmNoIiwibWVzc2FnZSI6InF1ZXJ5IHRpbWVkIG91dCJ9",
+        "name": "tutorial-in",
+        "offset": 1,
+        "partition": 0,
+        "time": "2026-11-11T18:59:33.433000Z",
+        "topic": "smeltr-tutorial-in",
+        "type": "kafka"
+      },
+      "_raw": "{\"service\":\"search\",\"message\":\"query timed out\"}"
+    },
+    {
+      "__capture": {
+        "config": "73e3ae26bec80f795b8e874b78ce18d1f01d47ca",
+        "group": "standalone",
+        "source": "tutorial-in",
+        "timestamp": "2026-11-11T19:00:50.060094Z"
+      },
+      "__source": {
+        "bytes": "eyJzZXJ2aWNlIjoiY2hlY2tvdXQiLCJtZXNzYWdlIjoib3JkZXIgcGxhY2VkIn0=",
+        "name": "tutorial-in",
+        "offset": 2,
+        "partition": 0,
+        "time": "2026-11-11T18:59:33.433000Z",
+        "topic": "smeltr-tutorial-in",
+        "type": "kafka"
+      },
+      "_raw": "{\"service\":\"checkout\",\"message\":\"order placed\"}"
+    }
+  ]
+}

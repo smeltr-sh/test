@@ -35,9 +35,16 @@
         },
         {
           "target": "event.dataset",
-          "expr": "\"smeltr.tutorial\""
+          "expr": "\"smeltr.orders\""
         }
       ]
+    },
+    {
+      "type": "drop",
+      "id": "drop-1794423629425",
+      "filter": null,
+      "disabled": false,
+      "condition": "service == \"search\""
     }
   ]
 }

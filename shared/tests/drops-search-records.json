@@ -1,0 +1,28 @@
+{
+  "id": "drops search records",
+  "name": "drops search records",
+  "pipeline": "pipeline-8hn1qap5",
+  "sample": "sample-0j9mkvtn",
+  "lockedAt": 1794423734741000,
+  "rowsIn": 3,
+  "fields": [
+    "service"
+  ],
+  "rows": [
+    {
+      "row": 0,
+      "values": {
+        "service": "checkout"
+      }
+    },
+    {
+      "row": 1
+    },
+    {
+      "row": 2,
+      "values": {
+        "service": "checkout"
+      }
+    }
+  ]
+}
