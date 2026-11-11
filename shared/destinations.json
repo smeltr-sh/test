@@ -1,0 +1,8 @@
+[
+  {
+    "id": "tutorial-out",
+    "type": "kafka",
+    "brokers": "kafka.example.com:9092",
+    "defaultTopic": "smeltr-tutorial-out"
+  }
+]

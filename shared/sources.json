@@ -1,0 +1,10 @@
+[
+  {
+    "id": "tutorial-in",
+    "type": "kafka",
+    "brokers": "kafka.example.com:9092",
+    "topics": [
+      "smeltr-tutorial-in"
+    ]
+  }
+]

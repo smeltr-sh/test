@@ -1,0 +1,15 @@
+[
+  {
+    "id": "route-dj49581l",
+    "source": "tutorial-in",
+    "condition": null,
+    "pipeline": "pipeline-8hn1qap5",
+    "deliver": [
+      {
+        "to": [
+          "tutorial-out"
+        ]
+      }
+    ]
+  }
+]

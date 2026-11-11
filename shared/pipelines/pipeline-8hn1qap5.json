@@ -1,0 +1,43 @@
+{
+  "id": "pipeline-8hn1qap5",
+  "name": "tutorial-in-parse",
+  "steps": [
+    {
+      "type": "parser",
+      "id": "parse",
+      "filter": null,
+      "disabled": false,
+      "input": "_raw",
+      "into": "$",
+      "kind": {
+        "type": "json"
+      },
+      "declared": [
+        {
+          "name": "service",
+          "type": "str"
+        },
+        {
+          "name": "message",
+          "type": "str"
+        }
+      ]
+    },
+    {
+      "type": "eval",
+      "id": "eval-1794423574345",
+      "filter": null,
+      "disabled": false,
+      "assignments": [
+        {
+          "target": "message",
+          "expr": "message.toUpperCase()"
+        },
+        {
+          "target": "event.dataset",
+          "expr": "\"smeltr.tutorial\""
+        }
+      ]
+    }
+  ]
+}
