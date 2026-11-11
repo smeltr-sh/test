@@ -30,10 +30,6 @@
       "disabled": false,
       "assignments": [
         {
-          "target": "message",
-          "expr": "message.toUpperCase()"
-        },
-        {
           "target": "event.dataset",
           "expr": "\"smeltr.orders\""
         }
